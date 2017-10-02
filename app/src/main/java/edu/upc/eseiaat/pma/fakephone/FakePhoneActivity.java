@@ -42,6 +42,8 @@ public class FakePhoneActivity extends AppCompatActivity {
         Button llamando = (Button) v;
         aux= "llamando al "+aux;
         Toast.makeText(FakePhoneActivity.this, aux, Toast.LENGTH_SHORT).show();
+        aux= "";
+        
     }
 
 }
